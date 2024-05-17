@@ -1,0 +1,27 @@
+
+
+
+
+/*------Menu------*/
+
+
+
+
+/*Body*/
+
+
+h1{
+    font-family: "Comic Sans MS", "Comic Sans" ;
+    color: red;
+}
+p{
+    font-size: large;
+}
+
+.parrafo1{
+    display: flex;
+}
+h2{
+    font-family: "Comic Sans MS", "Comic Sans" ;
+    color: green; 
+}
