@@ -4,8 +4,20 @@
 
 /*------Menu------*/
 
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
 
-
+}
 
 /*Body*/
 
@@ -16,6 +28,10 @@ h1{
 }
 p{
     font-size: large;
+    font-family: 'Raleway';
+}
+.parrafos{
+    margin: 20px;
 }
 
 .parrafo1{
@@ -24,4 +40,33 @@ p{
 h2{
     font-family: "Comic Sans MS", "Comic Sans" ;
     color: green; 
+}
+
+li, ul, ol{
+    font-size: large;
+}
+
+
+
+/*------Tabla------*/
+
+th, td, tr, thead, tbody{
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+.campeon{
+    background-color: gold;
+}
+.subcampeon{
+    background-color: silver;
+}
+.semifinalist{
+    background-color: rgb(221, 85, 35);
 }
