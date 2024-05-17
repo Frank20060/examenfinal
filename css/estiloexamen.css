@@ -21,6 +21,9 @@ nav ul li a{
 
 /*Body*/
 
+body{
+    padding: 10px;
+}
 
 h1{
     font-family: "Comic Sans MS", "Comic Sans" ;
@@ -28,7 +31,7 @@ h1{
 }
 p{
     font-size: large;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 }
 .parrafos{
     margin: 20px;
@@ -44,6 +47,7 @@ h2{
 
 li, ul, ol{
     font-size: large;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -53,6 +57,9 @@ li, ul, ol{
 th, td, tr, thead, tbody{
     border: 1px solid black;
     padding: 10px;
+}
+th{
+    background-color: rgba(190, 190, 190, 0.521);
 }
 table{
     border-collapse: collapse;
@@ -69,4 +76,11 @@ table{
 }
 .semifinalist{
     background-color: rgb(221, 85, 35);
+}
+.bandera{
+    padding: 2px;
+}
+
+th a, td a{
+    text-decoration: none;
 }
